@@ -1,0 +1,65 @@
+html {
+    width: 100%;
+}
+body {
+    width: 100%;
+}
+@font-face {
+    font-family: 'moon';
+    src:url('MOON 2.0 FREE/Moon2.0-Bold.oft') format("opentype");
+}
+@font-face {
+    font-family: 'moonl';
+    src:url('MOON 2.0 FREE/Moon2.0-Light.otf') format("opentype");
+}
+#parallax1 {
+    background: url('peter-clarkson-625028-unsplash.jpg');
+
+    height: 100%;
+    margin: 0;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#parallax2 {
+    background: url('apple-devices-apple-keyboard-close-up-1309766.jpg');
+
+    height: 100%;
+    margin: 0;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#parallax3 {
+    background: url('rebecca-oliver-483486-unsplash.jpg');
+
+    height: 100%;
+    margin: 0;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#parallax4 {
+    background: url('viktor-juric-1004774-unsplash.jpg');
+
+    height: 100%;
+    margin: 0;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #B892FD;
+    font-size: 5rem;
+    font-family: 'moon';
+}
