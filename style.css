@@ -1,8 +1,10 @@
 html {
     width: 100%;
+    margin: 0;
 }
 body {
     width: 100%;
+    margin: 0;
 }
 @font-face {
     font-family: 'moon';
@@ -22,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #B892FD;
 }
 #parallax2 {
     background: url('apple-devices-apple-keyboard-close-up-1309766.jpg');
@@ -32,7 +35,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;    
 }
 #parallax3 {
     background: url('rebecca-oliver-483486-unsplash.jpg');
@@ -59,7 +62,18 @@ body {
 
 h1 {
     text-align: center;
-    color: #B892FD;
-    font-size: 5rem;
+
+    font-size: 7rem;
     font-family: 'moon';
+    padding-top: 0.5rem;
+    letter-spacing: 3rem;
+}
+.title {
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-left: 6rem;
+}
+#intro {
+    text-align: center;
+    margin: auto;
 }
