@@ -37,7 +37,7 @@ a {
 #welcome-section {
     background: url('peter-clarkson-625028-unsplash.jpg');
 
-    height: 100%;
+    height: 100vh;
     margin: 0%;
 
     background-attachment: fixed;
@@ -222,6 +222,7 @@ button {
     font-weight: 700;
  }
  @media screen and (max-width:1152px){
+
      .welcome-section {
          width: 100%;
          margin: 0;
