@@ -23,7 +23,6 @@ body {
     background: rgba(0, 0, 0, 0.432);
     font-size: 1.7rem;
     color: #fff;
-    margin-top: -6rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -235,7 +234,7 @@ button {
  }
  @media screen and (max-width:1152px){
     body {
-        height: 100vh;
+        width: 100vw;
       }
     .welcome-section {
         background-size: 100% 100%;
