@@ -238,14 +238,13 @@ button {
         height: 100vh;
       }
     .welcome-section {
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-      
-        /* Preserve aspect ratio */
-        min-width: 100%;
-        min-height: 100%;;
-        background-attachment: scroll; 
+        background: url('peter-clarkson-625028-unsplash.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
     }
     .parallax2 {
         background-attachment: scroll; 
