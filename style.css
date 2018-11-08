@@ -43,6 +43,9 @@ a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: #B892FD;
 }
@@ -57,6 +60,9 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     overflow-x: hidden;
     overflow-y: auto;
     color: #fff;
@@ -72,6 +78,9 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     overflow-x: hidden;
     overflow-y: auto;
     color: #00B7B3;
@@ -86,6 +95,9 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     overflow-x: hidden;
     overflow-y: auto;
     color: #9450B2;
@@ -225,7 +237,7 @@ button {
     html {
         width: 100vw;
         height: auto;
-    }
+    } 
     body {
         width: 100vw;
         height: auto;
