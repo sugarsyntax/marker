@@ -221,7 +221,7 @@ button {
     font-size: 1.7rem;
     font-weight: 700;
  }
- @media {
+ @media screen and (max-width:1152px){
      .welcome-section {
          width: 100%;
      }
