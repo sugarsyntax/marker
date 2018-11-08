@@ -234,6 +234,9 @@ button {
     font-weight: 700;
  }
  @media screen and (max-width:1152px){
+    body {
+        height: 100vh;
+      }
     .welcome-section {
         position: fixed; 
         top: 0; 
