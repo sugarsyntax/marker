@@ -3,13 +3,6 @@ html {
     margin: 0%;
     padding: 0%;
 }
-body {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 550;
-}
 @font-face {
     font-family: 'moon';
     src:url('MOON 2.0 FREE/Moon2.0-Bold.oft') format("opentype");
@@ -17,6 +10,29 @@ body {
 @font-face {
     font-family: 'moonl';
     src:url('MOON 2.0 FREE/Moon2.0-Light.otf') format("opentype");
+}
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'moon';
+}
+nav {
+    width: 100%;
+    height: 2.5rem;
+    background: rgba(0, 0, 0, 0.432);
+    font-size: 1.7rem;
+    color: #fff;
+    margin-top: -6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }
 #parallax1 {
     background: url('peter-clarkson-625028-unsplash.jpg');
@@ -79,7 +95,6 @@ h1 {
     text-align: center;
     font-size: 7rem;
     font-family: 'moon';
-    padding-top: 0.5rem;
     letter-spacing: 3rem;
 }
 p {
