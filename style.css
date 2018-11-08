@@ -5,6 +5,7 @@ html {
 body {
     width: 100%;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @font-face {
     font-family: 'moon';
@@ -35,7 +36,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
+    color: #2238C9;    
 }
 #parallax3 {
     background: url('rebecca-oliver-483486-unsplash.jpg');
@@ -47,6 +49,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #00B7B3;
 }
 #parallax4 {
     background: url('viktor-juric-1004774-unsplash.jpg');
@@ -58,22 +61,99 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #9450B2;
 }
 
 h1 {
     text-align: center;
-
     font-size: 7rem;
     font-family: 'moon';
     padding-top: 0.5rem;
     letter-spacing: 3rem;
 }
+h3 {
+    font-size: 2.5rem;
+    margin: auto 0;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+ul{
+    margin-top: 0rem;
+}
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
 .title {
     font-size: 3rem;
-    padding-top: 5rem;
-    padding-left: 6rem;
+    text-align: center;
+    padding-top: 4rem;
 }
 #intro {
     text-align: center;
-    margin: auto;
+    margin: 32rem auto 1rem auto;  
+    font-size: 2.5rem;
 }
+img {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.left {
+    float: left;
+    width: 25%;
+}
+.glassEffect {
+  display: flex;
+  align-content: center;
+  min-height: 25rem;
+  width: 53%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 550;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  float: right;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  padding: 2.5rem 4rem 2.5rem 4rem;
+  border: solid 0.2rem rgba(255, 255, 255, 0.7);
+  border-radius: 35px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.7) 35%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.5) 69%, rgba(255,255,255,0.8) 93%, rgba(255,255,255,0.3) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.7) 35%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.5) 69%,rgba(255,255,255,0.8) 93%,rgba(255,255,255,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg , rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.7) 35%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.5) 69%,rgba(255,255,255,0.8) 93%,rgba(255,255,255,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 
+  Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6ad5+0,c774e8+29,ad8cff+62,8795e8+100 */
+}
+button {
+    color: rgba(92, 8, 8, 0.267)
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  label {
+    margin: 2% 2.5% 2% 2.5%;
+    padding: 0;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  .input-small {
+    width: 45%;
+  }
+  .input-full-width {
+    width: 100%;
+ }
