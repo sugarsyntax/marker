@@ -37,7 +37,7 @@ a {
 #welcome-section {
     background: url('peter-clarkson-625028-unsplash.jpg');
 
-    height: 100vh;
+    min-height: 100vh;
     margin: 0%;
 
     background-attachment: fixed;
