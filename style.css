@@ -222,25 +222,20 @@ button {
     font-weight: 700;
  }
  @media screen and (max-width:1152px){
-     html {
+    .welcome-section {
         width: 100vw;
-     }
-     body {
-         width: 100vw;
-     }
-     .welcome-section {
-         width: 100vw;
-     }
-     .parallax2 {
-         width: 100vw;
-     }
-     .glassEffect {
-         float: none;
-     }
-     .left {
-         float: none;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-evenly;
-     }
+    }
+    .parallax2 {
+        width: 100%;
+    }
+    .glassEffect {
+        width: 40%;
+    }
+  .left {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+     
  }
