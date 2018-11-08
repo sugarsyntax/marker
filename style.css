@@ -222,6 +222,14 @@ button {
     font-weight: 700;
  }
  @media screen and (max-width:1152px){
+    html {
+        width: 100vw;
+        height: auto;
+    }
+    body {
+        width: 100vw;
+        height: auto;
+    }
     .welcome-section {
         width: 100vw;
         height: auto;
