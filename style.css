@@ -224,9 +224,11 @@ button {
  @media screen and (max-width:1152px){
     .welcome-section {
         width: 100vw;
+        height: auto;
     }
     .parallax2 {
         width: 100%;
+        height: auto;
     }
     .glassEffect {
         width: 40%;
