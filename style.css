@@ -238,13 +238,10 @@ button {
         height: 100vh;
       }
     .welcome-section {
-        background: url('peter-clarkson-625028-unsplash.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 100%;
-        overflow: hidden;
+        background-size: 100% 100%;
+        background-size: 100% auto;
+        background-size: contain;
+        background-attachment: scroll;
     }
     .parallax2 {
         background-attachment: scroll; 
