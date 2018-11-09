@@ -236,6 +236,9 @@ button {
  @media screen and (max-width:1152px){
     body {
         width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     .welcome-section {
         background-size: 100% 100%;
