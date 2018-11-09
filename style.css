@@ -249,12 +249,13 @@ button {
     .glassEffect {
         float: none;
         width: 80%;
-        margin: auto 0;
+        margin: 0;
     }
     ul {
         width: 80%;
         display: flex;
         flex-wrap: wrap;
+        align-items: stretch;
         justify-content: space-evenly;
     }
   .left {
@@ -263,10 +264,12 @@ button {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin: 0;
     }
     .icons {
         display: flex;
         flex-direction: row;
+        align-items: stretch;
         justify-content: stretch;
     }
      
