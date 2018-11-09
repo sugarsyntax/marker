@@ -257,7 +257,7 @@ button {
     ul {
         width: 80%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         align-items: stretch;
         justify-content: space-evenly;
     }
@@ -273,7 +273,7 @@ button {
         display: flex;
         flex-direction: row;
         align-items: stretch;
-        justify-content: stretch;
+        justify-content: space-evenly;
     }
      
  }
