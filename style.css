@@ -249,6 +249,13 @@ button {
     .glassEffect {
         float: none;
         width: 80%;
+        margin: auto 0;
+    }
+    ul {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
   .left {
         float: none;
