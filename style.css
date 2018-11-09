@@ -247,13 +247,20 @@ button {
         background-attachment: scroll; 
     }
     .glassEffect {
-        width: 40%;
+        float: none;
+        width: 80%;
     }
   .left {
-        width: 25%;
+        float: none;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
     }
      
  }
