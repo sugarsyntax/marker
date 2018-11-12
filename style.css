@@ -236,11 +236,17 @@ button {
         flex-direction: column;
         justify-content: center;
       }
+      h1 {
+          letter-spacing: 1rem;
+      }
     .welcome-section {
         background-attachment: scroll;
     }
     .parallax2 {
         background-attachment: scroll; 
+    }
+    .parallax3 {
+        background-attachment: scroll;
     }
     .glassEffect {
         float: none;
