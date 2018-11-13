@@ -194,6 +194,11 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    margin-top: 5rem;
+}
+.profile-link{
+    width: 4rem;
+    margin-top: 6.5rem;
 }
 .glassEffect {
   display: flex;
