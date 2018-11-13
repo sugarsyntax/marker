@@ -239,7 +239,7 @@ button {
         font-size: 2.5rem;
     }
     #intro {
-        margin-top: 80%;
+        margin-top: 80rem;
     }
     .welcome-section {
         background-attachment: scroll;
@@ -254,6 +254,7 @@ button {
         float: none;
         width: 80%;
         margin: auto;
+        font-size: 2.5rem;
     }
     .title {
         margin: auto;
