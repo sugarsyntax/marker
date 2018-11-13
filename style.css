@@ -258,19 +258,19 @@ button {
     .title {
         margin: auto;
     }
+    .left {
+        float: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap
+        justify-content: space-evenly;
+        margin: auto;
+    }
     ul {
         width: 90%;
         display: flex;
         flex-direction: row;
         align-items: stretch;
-        justify-content: space-evenly;
-        margin: auto;
-    }
-  .left {
-        float: none;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
         margin: auto;
     }
