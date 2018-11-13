@@ -109,7 +109,7 @@ p {
     color: #2238C9;  
 }
 h3 {
-    margin: auto 0;
+    font-size: 2rem;
 }
 .left {
     display: flex;
@@ -257,22 +257,32 @@ button {
     }
     .title {
         margin: auto;
+        font-size: 6rem;
+        letter-spacing: 0.7rem;
     }
     .left {
         float: none;
         width: 100%;
         display: flex;
-        flex-wrap: wrap
+        flex-wrap: wrap;
         justify-content: space-evenly;
         margin: auto;
     }
+    h3 {
+        margin: auto;
+        font-size: 4.5rem;
+    }
     ul {
-        width: 90%;
+        width: 100%;
         display: flex;
-        flex-direction: row;
+        text-align: center;
         align-items: stretch;
         justify-content: space-evenly;
         margin: auto;
+    }
+    li {
+        list-style: none;
+        font-size: 3.5rem;
     }
     #me {
         margin: auto;
