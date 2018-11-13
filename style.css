@@ -306,7 +306,7 @@ button {
     li {
         list-style: none;
         font-size: 3.5rem;
-        line-height: 2.5rem;
+        line-height: 3rem;
         letter-spacing: 0.8rem;
     }
     #me {
@@ -322,6 +322,9 @@ button {
         width: 100%;
         height: auto;
         padding: auto;
+    }
+    .text {
+        line-height: 1.5rem;
     }
     #form {
         margin-top: 4rem;   
