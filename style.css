@@ -156,11 +156,11 @@ li {
   position: relative;
   display: flex; 
   width: auto;
-  margin: 1rem 1rem;   
+  margin: 1rem 0rem;   
 }
 .project {
     height: 10rem;
-    width: auto;
+    width: inherit;
 }
 .overlay {
     position: absolute;
@@ -177,6 +177,13 @@ li {
   .container-fluid:hover .overlay {
     opacity: 1;
     cursor: pointer;
+  }
+  h4 {
+      text-align: center;
+      font-size: 2.5rem;
+  }
+  .text {
+      line-height: 1rem;
   }
 .left {
     float: left;
