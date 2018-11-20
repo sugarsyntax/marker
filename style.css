@@ -108,7 +108,11 @@ h1 {
     margin-bottom: 0rem;
 }
 p {
-    color: #2238C9;  
+    color: #2B012F;  
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2.3rem;
+    letter-spacing: 0.10rem;
 }
 h3 {
     font-size: 2rem;
@@ -207,10 +211,8 @@ li {
   align-content: center;
   min-height: 27rem;
   width: 65%;
-  font-family: Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.45rem;
-  letter-spacing: 0.3rem;
+  font-size: 1.7rem;
   text-align: left;
   float: right;
   margin-right: 4rem;
