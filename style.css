@@ -44,7 +44,7 @@ a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #B892FD;
+    color:  #B892FD;
 }
 #parallax2 {
     background: url('pexels-photo-1309766.jpeg');
@@ -139,9 +139,11 @@ li {
     padding-top: 1.5rem;
 }
 #intro {
+    color:  #2238C9;
+    font-family: 'moon';
     text-align: center;
     margin: 32rem auto 1rem auto;  
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 #me {
     width: 65%;
