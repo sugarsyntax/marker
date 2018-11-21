@@ -275,6 +275,7 @@ button {
     }
     #navbar {
         font-size: 2.5rem;
+        font-weight: bold;
     }
     #intro {
         margin-top: 80rem;
