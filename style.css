@@ -16,7 +16,6 @@ body {
 #navbar {
     width: 100%;
     height: 2.5rem;
-    background: rgba(0, 0, 0, 0.432);
     font-size: 1.7rem;
     color: #fff;
     display: flex;
@@ -25,6 +24,12 @@ body {
     justify-content: space-evenly;
     position: fixed;
     z-index: 1;
+}
+#navbar a {
+    background: rgba(0, 0, 0, 0.301);
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    border: solid #fff 2px;
 }
 a {
     text-decoration: none;
