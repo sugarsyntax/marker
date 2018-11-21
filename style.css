@@ -279,7 +279,8 @@ button {
     p {
         font-size: 4rem;
         line-height: 4rem;
-        letter-spacing: 0.07rem;
+        letter-spacing: 0.05rem;
+        text-align: left;
     }
     .welcome-section {
         background-attachment: scroll;
