@@ -1,22 +1,22 @@
+@font-face {
+    font-family: 'comfortaabold';
+    src: url('webfontkit-20181216-225127/comfortaa_bold-webfont.woff') format('woff2'),
+         url('comfortaa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-@font-face {
-    font-family: 'moon';
-    src:url('MOON 2.0 FREE/Moon2.0-Bold.oft') format("opentype");
-}
-@font-face {
-    font-family: 'moonl';
-    src:url('MOON 2.0 FREE/Moon2.0-Light.otf') format("opentype");
 }
 body {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    font-family: 'moon', Helvetica, sans-serif;
+    font-family: 'comfortaabold', sans-serif;
 }
 #navbar {
     width: 100%;
     height: 2.5rem;
     font-size: 1.7rem;
+    letter-spacing: 0.3rem;
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -108,13 +108,14 @@ a {
 h1 {
     text-align: center;
     font-size: 7rem;
-    font-family: 'moon', Helvetica, sans-serif;
+    font-family: 'comfortaabold', sans-serif;
+    font-weight: 1000;
     letter-spacing: 3rem;
     margin-bottom: 0rem;
 }
 p {
     color: #000;
-    font-family: Helvetica, sans-serif;
+    font-family: 'comfortaabold', sans-serif;
     text-align: justify;
     line-height: 2.3rem;
     letter-spacing: 0.10rem;
@@ -146,7 +147,7 @@ li {
 }
 #intro {
     color:  #2238C9;
-    font-family: 'moon';
+    font-family: 'comfortaabold';
     text-align: center;
     margin: 32rem auto 1rem auto;  
     font-size: 2.7rem;
