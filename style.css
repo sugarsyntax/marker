@@ -311,7 +311,7 @@ button {
     }
     .glassEffect {
         float: none;
-        width: 80%;
+        width: 85%;
         margin: auto;
         margin-bottom: 2rem;
         font-size: 2.5rem;
@@ -362,10 +362,21 @@ button {
         align-items: stretch;
         justify-content: space-evenly;
     }
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-around;
+    }
+    .container-fluid {
+      position: relative;
+      display: flex; 
+      width: auto;
+      margin: 0.5rem 0rem;   
+    }
     .project {
         width: 100%;
         height: auto;
-        padding: auto;
     }
     .text {
         line-height: 2rem;
