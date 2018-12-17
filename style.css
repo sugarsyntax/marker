@@ -301,13 +301,12 @@ button {
     .parallax3 {
         background-attachment: scroll;
     }
-    #contact {
-        margin-top: 2rem;
-    }
     .icons {
         padding-top: 2rem;
+        padding-bottom: 3rem;
     }
     #form {
+        margin-top: 5rem;
         margin-bottom: 7rem;
     }
     .glassEffect {
@@ -370,9 +369,6 @@ button {
     }
     .text {
         line-height: 2rem;
-    }
-    #form {
-        margin-top: 4rem;   
     }
     input {
         width: 100%;
