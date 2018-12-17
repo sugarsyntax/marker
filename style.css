@@ -90,7 +90,7 @@ a {
 #parallax4 {
     background: url(silhouettes_Archer__TV__black_background_1920x1080.jpg);
 
-    height: 100%S;
+    height: 100%;
     margin: 0;
 
     background-attachment: fixed;
@@ -300,6 +300,15 @@ button {
     }
     .parallax3 {
         background-attachment: scroll;
+    }
+    #contact {
+        margin-top: 2rem;
+    }
+    .icons {
+        padding-top: 2rem;
+    }
+    #form {
+        margin-top: 7rem;
     }
     .glassEffect {
         float: none;
