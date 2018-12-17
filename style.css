@@ -52,7 +52,7 @@ a {
     color:  #B892FD;
 }
 #parallax2 {
-    background: url('pexels-photo-1309766.jpeg');
+    background-color: #000;
 
     height: 100vh;
     margin: 0;
@@ -70,7 +70,7 @@ a {
     color: #fff;
 }
 #parallax3 {
-    background: url('rebecca-oliver-483486-unsplash.jpg');
+    background: url('pexels-photo-1309766.jpeg');
 
     height: 100%;
     margin: 0;
@@ -88,7 +88,7 @@ a {
     color: #00B7B3;
 }
 #parallax4 {
-    background: url('pexels-photo-92248.jpeg');
+    background: url(silhouettes_Archer__TV__black_background_1920x1080.jpg);
 
     height: 100%S;
     margin: 0;
@@ -113,7 +113,7 @@ h1 {
     margin-bottom: 0rem;
 }
 p {
-    color: #2B012F;  
+    color: #000;
     font-family: Helvetica, sans-serif;
     text-align: justify;
     line-height: 2.3rem;
