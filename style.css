@@ -162,11 +162,22 @@ li {
     opacity: 0.7;
     filter: alpha(opacity=70);
 }
+#client-work {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-evenly;
+}
+.hackathon {
+    margin: 5rem 2rem 2rem 2rem;
+}
+#hackathon-title {
+    margin-top: 4rem;
 }
 .container-fluid {
   position: relative;
@@ -348,7 +359,7 @@ button {
     }
     li {
         list-style: none;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 1.2rem;
         letter-spacing: 0.8rem;
     }
@@ -366,13 +377,26 @@ button {
         display: flex;
         flex-wrap: wrap;
         align-content: stretch;
-        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+    #client-work {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+    .hackathon {
+        margin: 3rem 5rem 2rem 5rem;
+        padding: 0rem 3rem;
+    }
+    #projects {
+        margin-bottom: 6rem;
     }
     .container-fluid {
       position: relative;
       display: flex; 
-      width: auto;
-      margin: 0.5rem 0rem;   
+      width: 40%;
+      height: auto;
+      margin: 2rem 1rem;   
+      padding: 0rem;
     }
     .project {
         width: 100%;
